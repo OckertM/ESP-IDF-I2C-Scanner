@@ -4,15 +4,18 @@
 Use this program to check if your I2C device is still alive.
 
 ## How to use this project
-Run ```git clone https://github.com/OckertM/ESP-IDF-I2C-Scanner.git``` in your terminal.
+Run command below in your terminal.  
+```bash
+git clone https://github.com/OckertM/ESP-IDF-I2C-Scanner.git
+```
 
 ### Hardware Required
 1 x ESP32  
-1 x I2C sensor/device
+1 x I2C sensor/device  
 2 x 4K7 resistors
 
 Connect one 4K7 resistor between GPIO 21 (SDA) and 3.3V.  
-Connect the other resistor between GPIO 22 (SCL) and 3.3V.
+Connect the other 4K7 resistor between GPIO 22 (SCL) and 3.3V.
 
 **Note:** You are most likely going to need pullup resistors even if the internal pullups are enabled!
 
